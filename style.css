@@ -1,26 +1,29 @@
 body {
-  background: linear-gradient(110deg, #7e90be, #938ca6);
+  background: linear-gradient(90deg, #273656, #aa2e4e);
   font-family: "Roboto", sans-serif;
 }
 .topic {
   border-radius: 10px;
-  background-color: #f6f7f5;
-  border-style: groove;
+  background: linear-gradient(#8bbca6, #fce8c8);
   width: 50%;
   color: black;
   margin-left: auto;
   margin-right: auto;
   margin-top: 30px;
 }
-.topicbody {
+.topic-body {
   margin-left: 1em;
   margin-right: 1em;
   font-size: large;
+  text-align: center;
 }
-.heading {
+.topic-heading {
   text-align: center;
   margin-left: 1em;
   line-height: 50px;
+}
+.topic-image {
+  text-align: center;
 }
 .grid {
   display: grid;

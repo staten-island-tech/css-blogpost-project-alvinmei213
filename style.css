@@ -1,12 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;900&display=swap");
 body {
-  background: linear-gradient(90deg, #273656, #aa2e4e);
-  font-family: "Roboto", sans-serif;
+  background-image: url("images/background.png");
+  font-family: "Playfair Display", serif;
 }
 .topic {
-  border-radius: 10px;
-  background: linear-gradient(#8bbca6, #fce8c8);
+  background-color: #1d0661;
+  border-style: inset;
   width: 50%;
-  color: black;
+  color: #f5f5f5;
   margin-left: auto;
   margin-right: auto;
   margin-top: 30px;
@@ -27,6 +28,7 @@ body {
   text-align: center;
   margin-left: 1em;
   line-height: 50px;
+  font-weight: 900;
 }
 .grid {
   display: grid;

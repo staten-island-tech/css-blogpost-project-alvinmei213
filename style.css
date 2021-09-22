@@ -17,13 +17,16 @@ body {
   font-size: large;
   text-align: center;
 }
+.topic-image {
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
 .topic-heading {
   text-align: center;
   margin-left: 1em;
   line-height: 50px;
-}
-.topic-image {
-  text-align: center;
 }
 .grid {
   display: grid;

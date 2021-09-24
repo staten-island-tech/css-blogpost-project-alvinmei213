@@ -12,7 +12,7 @@ body {
   margin-right: auto;
   margin-top: 30px;
 }
-.topic-body {
+.topic__body {
   margin-left: 1em;
   margin-right: 1em;
   font-size: large;
@@ -21,7 +21,7 @@ body {
 #topic-link {
   margin-bottom: 10px;
 }
-.topic-image {
+.topic__image {
   background-size: contain;
   background-repeat: no-repeat;
   margin-left: auto;
@@ -29,16 +29,16 @@ body {
   width: 40%;
   height: 40%;
 }
-#topic-whalen {
+#topic__image--whalen {
   background-image: url("/images/WhalenMichael.jpg");
 }
-#topic-eduardo {
+#topic__image--eduardo {
   background-image: url("/images/eduardo.png");
 }
-#topic-cheese {
+#topic__image--cheese {
   background-image: url("/images/cheese.jpg");
 }
-.topic-heading {
+.topic__heading {
   text-align: center;
   margin-left: 1em;
   line-height: 50px;

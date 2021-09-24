@@ -3,6 +3,17 @@ body {
   background-image: url("images/background.png");
   font-family: "Playfair Display", serif;
 }
+.headingimg {
+  position: absolute;
+  width: 10%;
+  top: 10px;
+}
+#headingimg--globe {
+  right: 10px;
+}
+#headingimg--baby {
+  left: 10px;
+}
 .topic {
   background-color: #1d0661;
   border-style: inset;
